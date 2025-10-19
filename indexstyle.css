@@ -1,0 +1,112 @@
+/* styles.css — базовые стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.site-header {
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.site-header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.main-nav ul li {
+  margin-right: 20px;
+}
+.main-nav ul li:last-child {
+  margin-right: 0;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+.hero {
+  background: #f8f8f8;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+}
+.hero p {
+  font-size: 18px;
+  margin: 0 0 40px;
+}
+/* далее стили секций, product-grid и др… */
+.section {
+  padding: 80px 0;
+}
+.section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.product-grid {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.product-image img {
+  width: 100%;
+  max-width: 500px;
+}
+.steps {
+  display: flex;
+  gap: 40px;
+}
+.step {
+  flex: 1;
+}
+.faq-item {
+  margin-bottom: 30px;
+}
+.contact-form input, .contact-form button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.contact-form button {
+  cursor: pointer;
+}
+.site-footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 0;
+}
